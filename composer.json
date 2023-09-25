@@ -1,0 +1,19 @@
+{
+    "name": "satriawan/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Satriawan\\BelajarPhpComposerHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "andhika-satriawan",
+            "email": "andhika.satriawan1988@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2.4"
+    }
+}
